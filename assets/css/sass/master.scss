@@ -1,0 +1,183 @@
+$color-fa: #fafafa;
+$color-dd: #dddddd;
+$color-ee: #eeeeee;
+$color-46: #464646;
+$color-56: #565656;
+
+@import 'font.scss';
+
+button:focus {
+	outline: none;
+}
+
+
+.header-top {
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	background-color: $color-fa;
+	border-bottom: 1px solid $color-ee;
+
+	li {
+		font-size: 0.8rem;
+
+		&.separetor {
+			color: $color-dd;
+		}
+	}
+
+	a {
+		color: $color-46;
+		font-size: 0.8rem;
+	}
+
+	.float-right li{
+		text-transform: uppercase;
+
+		a{
+			font-size: 0.64rem;
+		}
+	}
+}
+
+.header-brand {
+	.navbar {
+		padding: 1.5rem 0.5rem;
+		font-weight: bold;
+
+		.navbar-brand{
+			font-size: 2rem;
+		}
+
+		li{
+			a{
+				text-transform: uppercase;
+				color: $color-56;
+				font-size: 0.8rem;
+
+				.total-items{
+					font-weight: normal;
+					color: white;
+					background-color: black;
+					padding: 0.2rem 0.4rem;
+					border-radius: 50%;
+					font-size: 0.6rem;
+				}
+			}
+
+			.separetor{
+				color: $color-dd;
+				font-size: 0.8rem;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+.main-menu {
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+	background-color: $color-46;
+
+	a {
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		color: $color-fa;
+	}
+}
+
+
+// PAGE HEADER
+.page-header{
+	background-color: $color-ee;
+	text-align: center;
+
+	.page-heading {
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-weight: bold;
+		margin-top: 1rem;
+		color: $color-56;
+	}
+
+	li{
+		color: $color-46;
+
+		a{
+			color: $color-46;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+		}
+	}
+}
+
+// MAIN SECTION
+.products-area {
+	.card-body {
+		h3 {
+			text-transform: uppercase;
+			font-size: 1.2rem;
+			line-height: 1.5;
+			font-weight: bold;
+		}
+
+		.price {
+			letter-spacing: 0.02rem;
+		}
+
+		.btn-group{
+			button,
+			a{
+				text-transform: uppercase;
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+
+.product-single{
+	p{
+		font-size: 0.9rem;
+	}
+}
+
+
+// JUMBOTRON SECTION
+:root {
+	--jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+	padding-top: var(--jumbotron-padding-y);
+	padding-bottom: var(--jumbotron-padding-y);
+	margin-bottom: 0;
+	background-color: white;
+}
+
+@media (min-width: 768px) {
+	.jumbotron {
+		padding-top: calc(var(--jumbotron-padding-y) * 2);
+		padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+	}
+}
+
+.jumbotron p:last-child {
+	margin-bottom: 0;
+}
+
+.jumbotron-heading {
+	font-weight: 300;
+}
+
+.jumbotron .container {
+	max-width: 40rem;
+}
+
+// FOOTER SECTION
+footer {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+
+	p {
+		margin: 0;
+	}
+}

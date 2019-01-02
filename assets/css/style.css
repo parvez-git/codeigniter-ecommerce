@@ -1,0 +1,158 @@
+.font-01 {
+  font-size: 0.1rem; }
+
+.font-02 {
+  font-size: 0.2rem; }
+
+.font-03 {
+  font-size: 0.3rem; }
+
+.font-04 {
+  font-size: 0.4rem; }
+
+.font-05 {
+  font-size: 0.5rem; }
+
+.font-06 {
+  font-size: 0.6rem; }
+
+.font-07 {
+  font-size: 0.7rem; }
+
+.font-08 {
+  font-size: 0.8rem; }
+
+.font-09 {
+  font-size: 0.9rem; }
+
+.font-10 {
+  font-size: 1rem; }
+
+.font-11 {
+  font-size: 1.1rem; }
+
+.font-12 {
+  font-size: 1.2rem; }
+
+.font-13 {
+  font-size: 1.3rem; }
+
+.font-14 {
+  font-size: 1.4rem; }
+
+.font-15 {
+  font-size: 1.5rem; }
+
+.font-16 {
+  font-size: 1.6rem; }
+
+button:focus {
+  outline: none; }
+
+.header-top {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eeeeee; }
+  .header-top li {
+    font-size: 0.8rem; }
+    .header-top li.separetor {
+      color: #dddddd; }
+  .header-top a {
+    color: #464646;
+    font-size: 0.8rem; }
+  .header-top .float-right li {
+    text-transform: uppercase; }
+    .header-top .float-right li a {
+      font-size: 0.64rem; }
+
+.header-brand .navbar {
+  padding: 1.5rem 0.5rem;
+  font-weight: bold; }
+  .header-brand .navbar .navbar-brand {
+    font-size: 2rem; }
+  .header-brand .navbar li a {
+    text-transform: uppercase;
+    color: #565656;
+    font-size: 0.8rem; }
+    .header-brand .navbar li a .total-items {
+      font-weight: normal;
+      color: white;
+      background-color: black;
+      padding: 0.2rem 0.4rem;
+      border-radius: 50%;
+      font-size: 0.6rem; }
+  .header-brand .navbar li .separetor {
+    color: #dddddd;
+    font-size: 0.8rem;
+    font-weight: normal; }
+
+.main-menu {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  background-color: #464646; }
+  .main-menu a {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #fafafa; }
+
+.page-header {
+  background-color: #eeeeee;
+  text-align: center; }
+  .page-header .page-heading {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #565656; }
+  .page-header li {
+    color: #464646; }
+    .page-header li a {
+      color: #464646;
+      font-size: 0.8rem;
+      text-transform: uppercase; }
+
+.products-area .card-body h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: bold; }
+.products-area .card-body .price {
+  letter-spacing: 0.02rem; }
+.products-area .card-body .btn-group button,
+.products-area .card-body .btn-group a {
+  text-transform: uppercase;
+  font-size: 0.8rem; }
+
+.product-single p {
+  font-size: 0.9rem; }
+
+:root {
+  --jumbotron-padding-y: 3rem; }
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: white; }
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2); } }
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+.jumbotron-heading {
+  font-weight: 300; }
+
+.jumbotron .container {
+  max-width: 40rem; }
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+  footer p {
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
